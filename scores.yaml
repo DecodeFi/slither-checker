@@ -1,0 +1,19 @@
+detector_scores:
+  incorrect-equality: 0
+  incorrect-shift: 0
+  incorrect-exp: 0
+score_table: 
+  # confidence
+  High:
+    # impact
+    Low: 10
+    Medium: 100
+    High: 1000
+  Medium:
+    Low: 1
+    Medium: 10 
+    High: 100
+  Low:
+    Low: 0
+    Medium: 1
+    High: 10
